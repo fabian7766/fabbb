@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Grosu Fabian</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+
+        .gradient-sidebar {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+
+        .skill-tag {
+            background: #e5e7eb;
+            transition: all 0.3s ease;
+        }
+
+        .skill-tag:hover {
+            background: #3b82f6;
+            color: white;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-3xl overflow-hidden flex flex-col md:flex-row">
+        
+        <!-- Sidebar Stânga -->
+        <div class="w-full md:w-1/3 gradient-sidebar text-white p-8">
+            <div class="text-center mb-8">
+                <div class="w-32 h-32 bg-white/20 rounded-full mx-auto mb-4 flex items-center justify-center border-4 border-white/30">
+                    <i class="fas fa-user text-5xl"></i>
+                </div>
+                <h1 class="text-2xl font-bold uppercase tracking-wider">Grosu Fabian</h1>
+                <p class="text-blue-100 font-light mt-2 text-sm italic">"Ambiție și Progres"</p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Contact -->
+                <div>
+                    <h2 class="text-lg font-semibold border-b border-white/30 mb-4 pb-1 uppercase text-sm tracking-widest">Contact</h2>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-center">
+                            <i class="fas fa-phone w-6 text-blue-200"></i>
+                            <span>088216767</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope w-6 text-blue-200"></i>
+                            <span class="break-all">fabian@gmail.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt w-6 text-blue-200"></i>
+                            <span>Chișinău, Moldova</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Limbi Străine -->
+                <div>
+                    <h2 class="text-lg font-semibold border-b border-white/30 mb-4 pb-1 uppercase text-sm tracking-widest">Limbi Străine</h2>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span>Engleză</span>
+                                <span class="font-bold">Nivel C1</span>
+                            </div>
+                            <div class="w-full bg-white/20 h-2 rounded-full">
+                                <div class="bg-white h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span>Română</span>
+                                <span class="font-bold">Nativ</span>
+                            </div>
+                            <div class="w-full bg-white/20 h-2 rounded-full">
+                                <div class="bg-white h-2 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conținut Principal -->
+        <div class="w-full md:w-2/3 p-8 md:p-12">
+            
+            <!-- Profil Profesional -->
+            <section class="mb-10">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-bullseye text-blue-600 text-xl mr-3"></i>
+                    <h2 class="text-2xl font-bold text-gray-800 uppercase tracking-tight">Despre Mine</h2>
+                </div>
+                <p class="text-gray-600 leading-relaxed italic">
+                    Sunt o persoană extrem de ambițioasă și dornică de progres constant. Pasiunea mea pentru dezvoltarea personală mă motivează să caut mereu noi modalități de a-mi îmbunătăți aptitudinile și de a contribui activ în proiectele în care sunt implicat.
+                </p>
+            </section>
+
+            <!-- Educație -->
+            <section class="mb-10">
+                <div class="flex items-center mb-6">
+                    <i class="fas fa-graduation-cap text-blue-600 text-xl mr-3"></i>
+                    <h2 class="text-2xl font-bold text-gray-800 uppercase tracking-tight">Educație</h2>
+                </div>
+                <div class="border-l-4 border-blue-500 pl-6 ml-2">
+                    <div class="relative">
+                        <div class="absolute -left-[30px] top-1 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
+                        <h3 class="text-lg font-bold text-gray-800">Liceul Teoretic „Mihai Marinciuc”</h3>
+                        <p class="text-blue-600 font-medium">Elev, Clasa a 12-a</p>
+                        <p class="text-gray-500 text-sm">Promoția 2023 — 2026</p>
+                        <p class="mt-2 text-gray-600 text-sm">Focus pe dezvoltarea academică și pregătirea pentru învățământul superior.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Aptitudini -->
+            <section class="mb-10">
+                <div class="flex items-center mb-6">
+                    <i class="fas fa-star text-blue-600 text-xl mr-3"></i>
+                    <h2 class="text-2xl font-bold text-gray-800 uppercase tracking-tight">Aptitudini Cheie</h2>
+                </div>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-tag px-4 py-2 rounded-lg text-sm font-semibold text-gray-700"><i class="fas fa-check-circle mr-2 text-blue-500"></i>Perseverent</span>
+                    <span class="skill-tag px-4 py-2 rounded-lg text-sm font-semibold text-gray-700"><i class="fas fa-fire mr-2 text-blue-500"></i>Ambițios</span>
+                    <span class="skill-tag px-4 py-2 rounded-lg text-sm font-semibold text-gray-700"><i class="fas fa-tools mr-2 text-blue-500"></i>Muncitor</span>
+                    <span class="skill-tag px-4 py-2 rounded-lg text-sm font-semibold text-gray-700"><i class="fas fa-lightbulb mr-2 text-blue-500"></i>Creativ</span>
+                    <span class="skill-tag px-4 py-2 rounded-lg text-sm font-semibold text-gray-700"><i class="fas fa-chart-line mr-2 text-blue-500"></i>Dornic de Progres</span>
+                </div>
+            </section>
+
+            <!-- Obiective -->
+            <section>
+                <div class="flex items-center mb-6">
+                    <i class="fas fa-rocket text-blue-600 text-xl mr-3"></i>
+                    <h2 class="text-2xl font-bold text-gray-800 uppercase tracking-tight">Obiective de Viitor</h2>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600">
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-angle-right mt-1.5 mr-2 text-blue-600"></i>
+                            <span>Îmbunătățirea continuă a aptitudinilor personale și profesionale.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-angle-right mt-1.5 mr-2 text-blue-600"></i>
+                            <span>Aprofundarea cunoștințelor în domenii care necesită gândire critică și creativitate.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-angle-right mt-1.5 mr-2 text-blue-600"></i>
+                            <span>Valorificarea pasiunii pentru dezvoltare personală în proiecte de impact.</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer pentru Print -->
+    <div class="text-center mt-8 text-gray-400 text-xs uppercase tracking-widest hidden md:block">
+        Generat electronic • 2024
+    </div>
+
+</body>
+</html>
